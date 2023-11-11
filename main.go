@@ -9,6 +9,7 @@ import (
 func main() {
 
 	encryptedText := encrypt.Nimbus("shuvro")
+
 	fmt.Println("encrypted text==========>", encryptedText)
 	decryptedText := decrypt.Nimbus(encryptedText)
 	fmt.Println("decrypted text==========>", decryptedText)
